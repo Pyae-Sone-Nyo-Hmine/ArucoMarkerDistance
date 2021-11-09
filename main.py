@@ -2,10 +2,10 @@ from MarkerBuild import *
 from MarkerClass import *
 
 # using default or only camera
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # physical marker length in mm
-length = 66
+length = 186
 
 while True:
     success, img = cap.read()
